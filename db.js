@@ -13,4 +13,6 @@ function login() {
     return connection;
 }
 
-module.exports = login;
+module.exports = {
+    login: login
+};
